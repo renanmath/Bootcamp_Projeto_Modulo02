@@ -26,5 +26,42 @@ Esse distinto senhor da foto acima chama-se Oswaldo Golçalvez Cruz. Ele foi um 
 Dito isso, muito provavelmente Oswaldo Cruz deve estar se revirando em seu túmulo, ao olhar para o Brasil hoje. E não, não estamos falando da Covid, embora o assunto tenha relação. Estamos falando do ganho de força do movimento antivacina nos últimos anos e das consequencias graves que isso pode implicar (confira esse [artigo](https://www.uol.com.br/vivabem/noticias/redacao/2020/10/29/movimento-antivacina-avanca-online-por-que-ele-e-ameaca-a-saude-publica.htm)). Vemos um número crescente de pessoas que estão desacreditadas da importância e\ou eficiência da imunização ou mesmo que acreditam que vacinas podem ser perigosas. Partindo dessa premissa básica, é natural esperar uma queda no número de vacinas nos últimos anos. Esse é o escopo desse trabalho.
 
 Queremos validar ou invalidar nossa tese principal:
+
 **As coberturas vacinais no Brasil estão em uma tendência de queda**.
 
+
+A fim de investigar isso, coletamos dados do TabNet do DATASUS e fizemos uma análise exploratória dos mesmos. 
+
+## Resumo das conclusões
+Com a análise exploratória, conseguimos (infelizmente) confirmar a tese exposta acima:
+
+***Na última década (2010-2019), houve uma queda expressiva das coberturas vacinais no Brasil. Tais quedas foram observadas em todas as regiões e em todos as unidades federativas e na maioria dos imunizantes.***
+
+Em média, essa queda foi de -37.93%.
+
+## Análises futuras
+Ao longo das análise, alguns questionamentos adjacentes surgiram, mas não foram aprofundados. Deixo aqui listados, como registro de trabalhos futuros:
+
+- Houve supernotificação do número de doses de vacinas em 2014 e 2015, nos estados de Roraima, Rondônia, Ceará e Mato Grosso do Sul? Isso explicaria as coberturas vacinais muito acima de 100%? 
+- Por que o Distrito Federal apresentou comportamento diferente das outras unidades federativas, sendo a única UF a apresentar aumento das coberturas vacinais em 2016? 
+- Por que o Cerá apresentou uma diminuição da taxa de crescimento da população estimada, a partir de 2013?
+
+## O grande projeto futuro
+Devido ao tempo, não foi possível confirmar se há ou não relação da queda das coberturas vacinais com o aumento do movimento antivacina. Faremos isso em um projeto vindouro. 
+O escopo básico desse projeto futuro será:
+
+- Coletar do Twitter, por meio de web scraping, dados de tweets relacionados ao tema antivacina.
+- Tratar e limpar esses dados.
+- Fazer uma análise estatística e temporal desses dados.
+- Fazer uma análise de sentimentos desses dados.
+- Confirmar ou não a correlação relação entre dados e os dados das coberturas vacinais.
+
+
+# Contato
+Deixo aqui meus contatos, caso tenha interesse em conversar sobre o assunto, propor ideias ou sugestões, ou caso queira colaborar com algum projeto.
+
+[Linkedin](https://www.linkedin.com/in/renan-santos-5a24aa50/)
+
+[GitHub](https://github.com/renanmath)
+
+[Meu canal no YouTube](https://www.youtube.com/channel/UCJqOzdlOTtu4UPJ2cW5RUTw) sobre matemática 
